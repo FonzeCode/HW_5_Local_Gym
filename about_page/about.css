@@ -1,0 +1,20 @@
+body {
+
+}
+
+#background_1 {
+    background-image: url(/images/humphrey-muleba-dDp-6pXrYik-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+#background_2 {
+    background-image: url(/images/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg);
+    background-size:cover;
+    height: 800px;
+}
+
+#location {
+    margin-left: 40%;
+  }

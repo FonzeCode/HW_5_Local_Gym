@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="about.css">
 <title>Panita Gym</title>
 </head>
 <body>
@@ -37,17 +37,45 @@
     </nav>
 
     <!-- Background image Section -->
-    <div class="container-fluid fa" id="home">
-        <div class="landing-text">
-            <div class="container pt-4">
-                <div class="ellipse">
-                    <h1>Panita Gym</h1>
-                    <h3>Come enjoy a nice work out with us!</h3>
-                    <a href="/Sign_up/" class="btn btn-default btn-lg">Enroll Now!</a>
-                </div>
+<div class="container-fluid fa" id="home">
+        <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <!-- <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button> -->
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active" id="background_1">
+            <div class="text-center">
+                <h1>Panita Gym</h1>
+                <h2>Where the imposible happens</h2>
             </div>
+        <!-- <img src="/images/humphrey-muleba-dDp-6pXrYik-unsplash.jpg" alt="Bikes" class="d-block" style="width:100%"> -->
+        </div>
+       <div class="carousel-item" id="background_2">
+            <div class="text-center text-light">
+                <h1>Be the best of yourself</h1>
+                <h2>Never Give up</h2>
+            </div>
+           
+        <!-- <img src="/images/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg" alt="Man Working out" class="d-block" style="width:100%"> -->
         </div>
     </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
 
     <!-- Footer Section -->
 
@@ -84,19 +112,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>

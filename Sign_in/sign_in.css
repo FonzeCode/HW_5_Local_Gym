@@ -2,13 +2,12 @@ body {
     background-color:rgb(194, 217, 226);
     background-image: url(/images/original-cbe687fcbd105883926dac5b07333b64.webp);
 }
+
 .bg-color {
     background-color:#d085aa;
-    background-image: url(/images/original-5f1bbcbfd6701445e13c7deb18b0a496.webp)
+    background-image: url(/images/original-5f1bbcbfd6701445e13c7deb18b0a496.webp);
 }
 
 .form-control {
-   width:50%;
-   flex: content;
-
+   width:40%;
 }
