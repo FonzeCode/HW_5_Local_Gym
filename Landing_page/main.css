@@ -39,7 +39,7 @@
   }
 
   #home {
-    background-image: url(/Landing_page/images/original-eca7317c2bd4fde94fb2767d05b8863b.webp);
+    background-image: url(/images/original-eca7317c2bd4fde94fb2767d05b8863b.webp);
     background-size:cover;
     background-repeat: no-repeat;
     height: 1000px;;
@@ -64,4 +64,9 @@
   .container {
     padding-left: 60%;
   }
+
+  #location {
+    margin-left: 40%;
+  }
+
  
